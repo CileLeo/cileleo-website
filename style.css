@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=IBM+Plex+Serif:ital@1&display=swap');
+
+body {
+    background-color: #eee;
+}
+
+a {
+    border: 0.15rem solid transparent;
+    font-family: 'Cabin', sans-serif;
+    color: #7a5d4e;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+* {
+    margin: 0rem;
+}
+
+main {
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    
+    -webkit-box-shadow: #7a5d4e 0px 0 10px;
+    -moz-box-shadow: #7a5d4e 0 0 10px;
+    box-shadow: #7a5d4e 0 0 10px;
+    border: 0.3rem solid #7a5d4e;
+    padding: 2rem;
+    margin: auto;
+    max-width: 22rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+p {
+    margin: 0rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+dl {
+    display: grid;
+    grid: auto-flow / 1fr 2fr 2fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+}
+
+dt {
+    grid-column: 2 / span 1;
+    font-size: 18px;
+    font-weight: 400; 
+}
+
+hr {
+    border: 0;
+    border-bottom: 0.2rem solid #7a5d4e;
+    margin: 1rem 0;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
