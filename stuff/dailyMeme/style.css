@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+* {
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0.1rem;
+}
+
+.topnav {
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+  
+.topnav a {
+    border-radius: 10px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color:#EA2027;
+    color: #ffffff;
+
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+  
+.topnav a.active {
+    color: #ffffff;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.mainTitle {
+    outline: #000000;
+    outline-width: 2px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.memeImg {
+    border: #000000;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: inset;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+    max-height:50%;
+ }
