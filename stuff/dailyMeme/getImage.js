@@ -10,5 +10,9 @@ fetch(url)
 });
 
 function done() {
-    document.getElementById('memeImg').src = storedText;
+    var firstLine = storedText.split('\n')[0];
+    document.getElementById('memeImg').src = firstLine;
+
+    var leoMessage = storedText.split('\n')[1];
+    document.getElementById('leoMessage').innerText = leoMessage;
 }
