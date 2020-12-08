@@ -6,13 +6,16 @@ fetch(url)
     response.text().then(function(text) {
       storedText = text;
       done();
-    });
+  });
 });
 
 function done() {
-    var firstLine = storedText.split('\n')[0];
-    document.getElementById('memeImg').src = firstLine;
+  var title = storedText.split('\n')[0];
+  document.getElementById('title').innerText = title;
 
-    var leoMessage = storedText.split('\n')[1];
-    document.getElementById('leoMessage').innerText = leoMessage;
+  var firstLine = storedText.split('\n')[1];
+  document.getElementById('memeImg').src = firstLine;
+
+  var leoMessage = storedText.split('\n')[2];
+  document.getElementById('leoMessage').innerText = leoMessage;
 }
