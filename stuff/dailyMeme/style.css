@@ -25,6 +25,7 @@
     background-color:#EA2027;
     color: #ffffff;
     transition: background-color 400ms linear;
+    cursor: pointer;
 }
   
 .topnav a.active {
@@ -36,9 +37,6 @@
 }
 
 .mainTitle {
-    outline: #000000;
-    outline-width: 2px;
-    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
