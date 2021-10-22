@@ -1,36 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+body
+{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.header
+{
     text-align: center;
     background-color: white;
 }
 
-.topnav {
+.topnav
+{
     overflow: hidden;
     background-color: black;
 }
 
-a {
+a
+{
     padding: 8px 6px;
     display: block;
     color: black;
     text-decoration: none;
 }
 
-a:hover {
+a:hover
+{
     color: white;
     background-color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
-.topnav a {
+.topnav a
+{
     float: left;
     display: block;
     margin: 0;
@@ -47,13 +53,15 @@ a:hover {
     font-weight: bold;
 }
 
-.content {
+.content
+{
     max-width: 700px;
     padding: 24px 24px;
     margin: auto;
 }
 
-.footer {
+.footer
+{
     color: black;
     font-weight: bold;
 
@@ -61,20 +69,24 @@ a:hover {
     text-align: center;
 }
 
-div {
+div
+{
     display: block;
 }
 
-hr {
+hr
+{
     display: block;
     border-top: 3px dashed black;
 }
 
-h1 {
+h1
+{
     font-family: 'Roboto Mono', monospace;
 }
 
-h2 {
+h2
+{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-weight: bold;
@@ -82,12 +94,13 @@ h2 {
     font-size: 1.5rem;
 }
 
-p {
+p
+{
     display: block;
     word-wrap: break-word;
 
 }
-
-.timestamp {
+.timestamp
+{
     text-align: center;
 }
