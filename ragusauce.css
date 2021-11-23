@@ -27,6 +27,19 @@ a
     text-decoration: none;
 }
 
+.boldtext
+{
+    font-weight: bold;
+}
+
+.nonblock
+{
+    padding: 8px 6px;
+    display: unset;
+    color: black;
+    text-decoration: none;
+}
+
 a:hover
 {
     color: white;
